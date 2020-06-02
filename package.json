@@ -1,0 +1,23 @@
+{
+  "name": "NODE-BOT-TELEGRAM",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js",
+    "start" : "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "font-manager": "^0.3.1",
+    "jimp": "^0.12.1",
+    "linebreak": "^1.0.2",
+    "node-telegram-bot-api": "^0.50.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
